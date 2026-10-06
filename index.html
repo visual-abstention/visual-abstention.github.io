@@ -14,6 +14,9 @@
   <meta property="og:description" content="Visual abstention: when a requested image edit is impossible under the task's rules, a model should say so and decline to generate. We introduce Draw-or-Decline (DoD), a benchmark of 1,050 feasible-infeasible pairs, and VisTA, a paired training method; VisTA-BAGEL refuses 93.0% of infeasible requests while completing 74.3% of feasible edits.">
   <meta property="og:image" content="https://visual-abstention.github.io/static/images/abstention_concept.png">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="static/images/logo/favicon.svg?v=1">
+  <link rel="alternate icon" type="image/png" sizes="32x32" href="static/images/logo/logo-32.png?v=1">
+  <link rel="apple-touch-icon" href="static/images/logo/logo-180.png?v=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -24,7 +27,7 @@
 
   <header class="site-header">
     <div class="header-container">
-      <a href="#hero" class="info-badge"><span class="badge-mark">Visual Abstention</span></a>
+      <a href="#hero" class="info-badge"><img class="badge-icon" src="static/images/logo/logo.svg?v=1" alt=""><span class="badge-mark">Visual Abstention</span></a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <nav class="main-nav" id="main-nav">
         <ul>
@@ -44,7 +47,10 @@
     <section id="hero" class="content-section hero-section">
       <div class="section-container">
         <div class="title-block">
-          <h1 class="main-title"><span class="title-mark">Visual Abstention</span></h1>
+          <div class="title-with-logo">
+            <img class="title-logo" src="static/images/logo/logo.svg?v=1" alt="Visual Abstention logo">
+            <h1 class="main-title"><span class="title-mark">Visual Abstention</span></h1>
+          </div>
           <p class="subtitle">in Unified Multimodal Models</p>
         </div>
 
